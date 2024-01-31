@@ -39,5 +39,5 @@
   "homepage": "https://GorbachyovKS.github.io/Portfoli-Platform",
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
+  }
 }
