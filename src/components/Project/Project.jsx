@@ -17,7 +17,7 @@ const Project = ({ project }) => {
                 <div className={cl.title}>{project.title}</div>
                 <div className={cl.subtitle}>{project.subtitle}</div>
                 <div className={cl.link}>
-                    <a href={''}>{project.site}</a>
+                    <a href={project.path}>{project.site}</a>
                 </div>
                 <div className={cl.tools}>
                     {project.tools.map(tool =>

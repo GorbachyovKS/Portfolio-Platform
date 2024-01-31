@@ -139,6 +139,15 @@ footer {
   gap: 1rem;
 }
 
+footer .logo {
+  display: flex;
+  align-items: center;
+}
+
+footer .logo a {
+  font-size: 1em;
+}
+
 .footer-nav {
   display: flex;
   flex: 1 0 0;
@@ -198,17 +207,24 @@ footer {
 
 @media screen and (max-width: 27em) {
   * {
-    font-size: 2.5vw;
-
+    font-size: 3vw;
   }
 
   .main {
     padding: 30px 20px;
   }
+
+  .header-nav {
+    gap: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 20em) {
   * {
-    font-size: 3vw;
+    font-size: 3.2vw;
+  }
+
+  .header-nav {
+    gap: 2.5rem;
   }
 }

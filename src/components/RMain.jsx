@@ -9,6 +9,7 @@ const RMain = () => {
       subtitle: "Online grocery store. With filter functionality with pagination, product search, catalog pages. Adding products to favorites, cart, orders. Separate page for each product. Possibility of superficial registration with storage in localStorage in order to walk through the store as a new user. Product evaluation and more. Come in and try it out.",
       site: "online store app",
       img: "p1",
+      path: './projects/onlineStore/index.html',
       tools: ["React", "Zustand", "React-router-dom"],
     },
     {
@@ -17,6 +18,7 @@ const RMain = () => {
       subtitle: "iOS weather clone app. With full functionality as in the original application.",
       site: "Wheather app",
       img: "p2",
+      path: './projects/wheather/index.html',
       tools: ["Vue-3", "Chart.js", "Reas API"],
     },
     {
@@ -25,6 +27,7 @@ const RMain = () => {
       subtitle: "The commercial application AMIS-LEAK is developed for private use by the company. Receiving data from a remote server for mathematical calculations, using data for plotting and analysis. Creation of your own intermediate points on the map and full access to disable/enable tracking of them. Integration with PostgreSQL to create your own database, storing the necessary information and working with it.",
       site: "AMIS-LEAK",
       img: "p3",
+      path: '',
       tools: ["Vue-3", "Pinia", "Chart.js"],
     },
   ];
