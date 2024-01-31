@@ -36,10 +36,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "./",
+  "homepage": "https://GorbachyovKS.github.io/Portfoli-Platform",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
 }
