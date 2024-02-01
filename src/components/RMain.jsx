@@ -14,8 +14,8 @@ const RMain = () => {
     },
     {
       id: 2,
-      title: "Clone ios wheather",
-      subtitle: "iOS weather clone app. With full functionality as in the original application.",
+      title: "Ios weather clone app",
+      subtitle: "Ios weather clone app. With full functionality as in the original application.",
       site: "Wheather app",
       img: "p2",
       path: './projects/wheather/index.html',
@@ -57,13 +57,18 @@ const RMain = () => {
         </div>
         <nav className="main-nav">
           <div className="nav__social">
-            <a href="https://www.instagram.com/gorbachyov_?igsh=czlkNzg1MjQ0bzAx&utm_source=qr" target="_blank">
+            <a target="_blank" href="https://www.instagram.com/gorbachyov_?igsh=czlkNzg1MjQ0bzAx&utm_source=qr">
               <i className="fa-brands fa-instagram fa-2xl"></i>
             </a>
           </div>
           <div className="nav__social">
-            <a href="">
-              <i className="fa-brands fa-instagram fa-2xl"></i>
+            <a target="_blank" href="https://rabota.by/resume/91e54660ff0cd21fc00039ed1f42656d753262?from=share_ios">
+              <i className="fa-solid fa-r fa-2xl"></i>
+            </a>
+          </div>
+          <div className="nav__social">
+            <a target="_blank" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFRae9HJYOvMQAAAY1krrYgEq8s7ASGc_WRYqOUgP5w0WOe_taSpZlhm1zklDOYrGfsRfMBnP4Uo-o8qmgFcxULvPcrdsl5QZAO0NrrIhzPTM6d-1ZVCV-HNkbzyEW-1UEIGt0=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkirill-gorbachyov-08a15b2b2%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dios_app">
+              <i className="fa-brands fa-linkedin fa-2xl"></i>
             </a>
           </div>
         </nav>
