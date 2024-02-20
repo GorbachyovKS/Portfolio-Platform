@@ -180,11 +180,30 @@ footer .logo a {
   width: 60%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 20px;
 }
 
-.about-descr p {
-  line-height: 1.5rem;
+.about-descr h2 {
+  font-size: 1.3em;
+}
+
+.about-descr li {
+  list-style-type: none;
+}
+
+.about-descr__elem {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  gap: 10px;
+}
+
+.about-descr__elem ul {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-weight: normal;
 }
 
 .about-image {
@@ -198,6 +217,10 @@ footer .logo a {
 .about-image img {
   width: 100%;
   height: auto;
+}
+
+.clone {
+  display: none;
 }
 
 
@@ -228,5 +251,22 @@ footer .logo a {
 
   .header-nav {
     gap: 2.5rem;
+  }
+
+  .about {
+    flex-direction: column;
+    
+  }
+
+  .about-descr {
+    width: 100%;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+  .clone {
+    display: flex;
   }
 }

@@ -27,7 +27,6 @@ online store app
     - axios
     - chart.js
     - vue
-    - vue-router
     - vuex
 wheather app
 
