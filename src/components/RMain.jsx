@@ -1,7 +1,8 @@
 import React from "react";
 import Project from "./Project/Project";
-
+import me from '../assets/me.jpg'
 const RMain = () => {
+ 
   const projects = [
     {
       id: 1,
@@ -98,7 +99,7 @@ const RMain = () => {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro atque laboriosam earum nesciunt illo numquam veniam perspiciatis, necessitatibus sequi saepe non voluptate officia similique aut? Veniam fuga perspiciatis sit ab!</p>
           </div>
           <div className="about-image">
-            <img src="./assets/me.jpg" alt="me" />
+            <img src={me} alt="me" />
           </div>
         </div>
         <hr />
