@@ -43,9 +43,15 @@ header {
   align-items: center;
 }
 
+
 .logo {
   font-size: 1.4em;
   font-weight: bolder;
+}
+
+.logo span {
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 .header-nav {
@@ -269,5 +275,9 @@ footer .logo a {
   .clone {
     display: flex;
     width: 100%;
+  }
+
+  .logo span {
+    display: none;
   }
 }

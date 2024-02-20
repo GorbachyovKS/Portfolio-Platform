@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project/Project";
 import me from '../assets/me.jpg'
 const RMain = () => {
- 
+
   const projects = [
     {
       id: 1,
@@ -35,7 +35,7 @@ const RMain = () => {
   return (
     <>
       <header id="top">
-        <div className="logo">{"GorbachyovKS <GKS>"}</div>
+        <div className="logo"><span>GorbachyovKS</span>{"<GKS>"}</div>
         <nav className="header-nav">
           <div className="nav-link">
             <a href="#projects">Проекты</a>
@@ -49,7 +49,7 @@ const RMain = () => {
         <div className="main-text">
           <div className="title">Привет, я Кирилл Горбачев.</div>
           <div className="subtitle">
-          Я, Frontend-разработчик, занимаюсь дизайном веб-сайтов, приложений и сервисов. Адаптивная верстка и разработка приложений с использованием таких фреймворков, как Vue и React. Коммерческий опыт более 2 лет
+            Я, Frontend-разработчик, занимаюсь дизайном веб-сайтов, приложений и сервисов. Адаптивная верстка и разработка приложений с использованием таких фреймворков, как Vue и React. Коммерческий опыт более 2 лет
           </div>
         </div>
         <nav className="main-nav">
@@ -63,7 +63,7 @@ const RMain = () => {
               <i className="fa-solid fa-r fa-2xl"></i>
             </a>
           </div>
-          
+
           <div className="nav__social">
             <a target="_blank" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFRae9HJYOvMQAAAY1krrYgEq8s7ASGc_WRYqOUgP5w0WOe_taSpZlhm1zklDOYrGfsRfMBnP4Uo-o8qmgFcxULvPcrdsl5QZAO0NrrIhzPTM6d-1ZVCV-HNkbzyEW-1UEIGt0=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkirill-gorbachyov-08a15b2b2%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dios_app">
               <i className="fa-brands fa-linkedin fa-2xl"></i>
@@ -127,7 +127,7 @@ const RMain = () => {
       </section>
       <footer>
         <div className="logo">
-          <a href="#top">{"<GKS>"}</a>
+          <a href="#top">{"</GKS>"}</a>
         </div>
         <nav className="footer-nav">
           <div className="nav-link">
