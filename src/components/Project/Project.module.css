@@ -62,9 +62,54 @@
 
 .image img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    z-index: 5;
+}
+.container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 2rem;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+  }
+.containerIMG {
+    flex: 1 0 100%;
+}
+
+.containerIMG img {
+    width: 100%;
+    height: auto;
+}
+.containerButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 2em;
+    height: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    position: relative;
+}
 
 @media screen and (max-width: 48em) {}
 
