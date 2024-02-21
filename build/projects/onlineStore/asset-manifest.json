@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "./static/css/main.84d4a67c.css",
+    "main.js": "./static/js/main.0b8388a9.js",
+    "static/media/banner2.svg": "./static/media/banner2.8f175a673b4cf7698787.svg",
+    "static/media/banner1.svg": "./static/media/banner1.86313af77e1daa8c1faf.svg",
+    "static/media/articles-3.png": "./static/media/articles-3.ccfe9572db83d017dc79.png",
+    "static/media/articles-2.png": "./static/media/articles-2.c136b9c1eac0de24ddf5.png",
+    "static/media/sliders.png": "./static/media/sliders.6213628149c90e44d7d7.png",
+    "static/media/articles-1.png": "./static/media/articles-1.97c659b08f1811de6f0f.png",
+    "static/media/avatar.svg": "./static/media/avatar.33871bf1847a864849ac.svg",
+    "static/media/pancakes.png": "./static/media/pancakes.3e2ea8cd226e4b6fb060.png",
+    "static/media/bg-about.png": "./static/media/bg-about.8e0e6b0f28a3c769a70d.png",
+    "static/media/sausageCheese.png": "./static/media/sausageCheese.9ddeb15ba7d379532d27.png",
+    "static/media/butter.png": "./static/media/butter.7cbb6e652345f1838be1.png",
+    "static/media/yogurt.png": "./static/media/yogurt.a573ba905d34cfb1a39e.png",
+    "static/media/cheese.png": "./static/media/cheese.5553936db33605f03f79.png",
+    "static/media/condensedMilk.png": "./static/media/condensedMilk.87169568e98d1353b875.png",
+    "static/media/sausage.png": "./static/media/sausage.91196c68cc6ccff93190.png",
+    "static/media/slicing.png": "./static/media/slicing.166ec14fd6189e2759ff.png",
+    "static/media/butter-3.png": "./static/media/butter-3.65c7fb0d78650cd0711e.png",
+    "static/media/milk.png": "./static/media/milk.b15a9ae629a9230fd5d3.png",
+    "static/media/butter-2.png": "./static/media/butter-2.226ef825e72a1d818f48.png",
+    "static/media/butter-1.png": "./static/media/butter-1.569b5b1691b1c902110f.png",
+    "static/media/logo-header.svg": "./static/media/logo-header.1d0d656035a8c5a0b49048ca014c32d8.svg",
+    "static/media/pattern-sliders.svg": "./static/media/pattern-sliders.5549543bcaf8f97ff62c.svg",
+    "static/media/logo.svg": "./static/media/logo.8f55c062564616aff992310109b90842.svg",
+    "static/media/check.svg": "./static/media/check.517eee53361c8606eb408fe7c693d4ec.svg",
+    "static/media/default.svg": "./static/media/default.ebc3734febec99b75cc0.svg",
+    "index.html": "./index.html",
+    "main.84d4a67c.css.map": "./static/css/main.84d4a67c.css.map",
+    "main.0b8388a9.js.map": "./static/js/main.0b8388a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84d4a67c.css",
+    "static/js/main.0b8388a9.js"
+  ]
+}
